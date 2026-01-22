@@ -20,7 +20,7 @@ jobs:
         run: npm install
           
       - name: Rollup build
-        run: npm run build
+        run: npm run lib
      
       - name: Publish to npm
         run: npm publish
